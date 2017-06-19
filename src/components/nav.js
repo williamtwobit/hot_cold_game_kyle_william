@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function nav(props){
-  return(
+export default function Nav(props) {
+  return (
     <nav>
       <ul className="clearfix">
         <li>
@@ -12,5 +12,5 @@ export default function nav(props){
         </li>
       </ul>
     </nav>
-  )
+  );
 }
