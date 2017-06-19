@@ -5,3 +5,7 @@ export default function Feedback(props) {
         <h2 id="feedback">{props.feedback}</h2>
     );
 }
+
+Feedback.defaultProps={
+    feedback: 'Make Your Guess, Asshole!'
+};

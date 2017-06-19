@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Modal() {
     return (
-        <div className="overlay" id="modal" style="display: none;">
+        <div className="overlay" id="modal" styles="display: none;">
             <div className="content">
                 <h3>What do I do?</h3>
                 <div>

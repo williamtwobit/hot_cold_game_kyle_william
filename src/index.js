@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './reset.css';
-import './index.css';
+import './Styles/reset.css';
+import './Styles/style.css';
 
 import Game from './components/game';
 

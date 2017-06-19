@@ -6,4 +6,8 @@ export default function GuessCount(props) {
             Guess #<span id="count">{props.count}</span>!
         </p>
     );
-}
+};
+
+GuessCount.defaultProps={
+    count: 0
+};
